@@ -17,6 +17,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Counting App',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+      ),
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Counting App'),
